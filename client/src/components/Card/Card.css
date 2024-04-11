@@ -1,0 +1,259 @@
+.card-container {
+    
+    box-shadow: 1px 6px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px; 
+    width: 140px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Inter', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.8s ease-out;
+    
+  }
+
+  .card-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.25);
+  }
+
+.img{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px 10px 0 0;
+}  
+
+.img:nth-child(1) {
+    filter: drop-shadow(0px 0px 5px #4444dd);
+  }
+
+button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+
+  }
+
+
+
+  .img-container {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+  }
+
+  .info-container {
+    
+    font-size: 0.8em; 
+    text-transform: capitalize;
+
+   
+    }
+
+    .types-container {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        gap: 5px;
+        margin-block-end: 25px;
+    }
+
+
+
+
+.water{
+    background-color: #00BFFF;
+    padding: 2px;
+}
+
+.fire{
+    color: #ffffff;
+    background-color: #FF4500;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+
+.grass{
+    color: #ffffff;
+    background-color: #32CD32;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.normal{
+    color: #ffffff;
+    background-color: #A9A9A9;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.psychic{
+    color: #ffffff;
+    background-color: #FF1493;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.ghost{
+    color: #ffffff;
+    background-color: #4B0082;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.ice{
+    color: #ffffff;
+    background-color: #00BFFF;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.electric{
+    color: #ffffff;
+    background-color: #FFD700;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.flying{
+    color: #ffffff;
+    background-color: #87CEEB;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.bug{
+    color: #ffffff;
+    background-color: #32CD32;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.poison{
+    color: #ffffff;
+    background-color: #8A2BE2;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.fighting{
+    color: #ffffff;
+    background-color: #FF4500;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.rock{
+    color: #ffffff;
+    background-color: #A9A9A9;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.ground{
+    color: #ffffff;
+    background-color: #D2B48C;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.steel{
+    color: #ffffff;
+    background-color: #A9A9A9;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.fairy{
+    color: #ffffff;
+    background-color: #FF69B4;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.dragon{
+    color: #ffffff;
+    background-color: #00BFFF;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.dark{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.shadow{
+    color: #ffffff;
+    background-color: #3a3636;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.unknown{
+    color: #ffffff; 
+    background-color: #000000;
+    align-items:center;
+    justify-content: center;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.img-not{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-color: #f0f0f0;
+}

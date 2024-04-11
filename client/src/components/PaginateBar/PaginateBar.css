@@ -1,0 +1,70 @@
+.paginate {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+   
+
+}
+
+.title-paginate {
+    color: #000000;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+.select {
+    width: 40px;
+    justify-content: center;
+}
+
+.prev,
+.next {
+    width: 90px;
+    height: 30px;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD700;
+    font-weight: bold;
+    color: #000000;
+    border: 1px solid #000000;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+label {
+    color: #000000;
+    font-size: 0.6em;
+   
+}
+
+
+.pagina-actual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: bold;
+
+
+
+}
+
+
+.next:hover,
+.prev:hover {
+    background-color: #c0baeb;
+    border: 1px solid #c6c1e6;
+    color: #000000;
+    font-weight: bold;
+    border : 1px solid #000000;
+}
+
+
+.navigation-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
