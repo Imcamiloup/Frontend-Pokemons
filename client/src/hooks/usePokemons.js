@@ -15,7 +15,7 @@ const useFetch = () => {
     
     useEffect(() => {
         setLoading(true);
-        fetch('http://localhost:3001/pokemons')
+        fetch('https://backend-pokemons-production.up.railway.app/pokemons')
         .then((response) => response.json())
         .then((data) => {
             dispatch(getAllPokemons(data));

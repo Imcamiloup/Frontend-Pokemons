@@ -23,7 +23,7 @@ const FilterBar = ({ pokemons, setCurrentPage}) => {
     }, [pokemons])
 
     const getPokemons = async () => {
-        const response = await fetch('http://localhost:3001/pokemons')
+        const response = await fetch('https://backend-pokemons-production.up.railway.app/pokemons')
         const data = await response.json()
         dispatch(getPokemonsByFilter(data))
     }

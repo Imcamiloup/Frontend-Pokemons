@@ -9,7 +9,7 @@ const useTypes = () => {
     const types = useSelector((state) => state.pokemon.allTypes);
 
     useEffect(() => {
-        fetch('http://localhost:3001/types')
+        fetch('https://backend-pokemons-production.up.railway.app/types')
         .then((response) => response.json())
         .then((data) => {
             dispatch(getValueTypes(data));

@@ -18,7 +18,7 @@ const SearchBar = ({pokemons, setCurrentPage}) => {
     }
 
     const handleSubmit =  async () => {
-        const response = await fetch(`http://localhost:3001/pokemons/name/${input}`)
+        const response = await fetch(`https://backend-pokemons-production.up.railway.app/pokemons/name/${input}`)
         .then((response) => response.json())
         .then((data) => {
             dispatch(getAllPokemons(data))

@@ -104,14 +104,14 @@ const Create = () => {
         if (!input.height){
             validationErrors.height = 'Height is required';
         } else if (input.height < 1 || input.height > 1000) {
-            validationErrors.height = 'Height must be between 1 and 255';
+            validationErrors.height = 'Height must be between 1 and 1000';
         } else {
             validationErrors.height = '';
         }
         if (!input.weight){
             validationErrors.weight = 'Weight is required';
         } else if (input.weight < 1 || input.weight > 10000) {
-            validationErrors.weight = 'Weight must be between 1 and 255';
+            validationErrors.weight = 'Weight must be between 1 and 10000';
         } else {
             validationErrors.weight = '';
         }
@@ -151,7 +151,7 @@ const Create = () => {
 
             if (isSubmitted) {
 
-                const response = await fetch('http://localhost:3001/pokemons', {
+                const response = await fetch('https://backend-pokemons-production.up.railway.app/pokemons', {
                     method: 'POST',
                     headers: {
                     'Content-Type': 'application/json',

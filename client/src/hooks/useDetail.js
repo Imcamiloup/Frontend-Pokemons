@@ -16,7 +16,7 @@ const useDetail = () => {
     
     useEffect(() => {
         setDetailLoading(true);
-        fetch(`http://localhost:3001/pokemons/${id}`)
+        fetch(`https://backend-pokemons-production.up.railway.app/pokemons/${id}`)
         .then((response) => response.json())
         .then((data) => {
             dispatch(getPokemonDetail(data));
