@@ -19,7 +19,7 @@
     grid-column: 1/3;
 }
 
-.select-sort{
+select {
     width: 90%;
     height: 20px;
     margin: 5px;
