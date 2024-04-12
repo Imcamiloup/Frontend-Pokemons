@@ -54,11 +54,11 @@ const SortBar = ({ orderAZ, orderID, setOrderAZ, setOrderID, pokemons}) => {
         <div className="sortbar">
             <div className="title">Ordenar por:</div>  
             <div className="select-container">
-                <select value={orderAZ} onChange={ handleAlphabeticalOrder } >
+                <select value={orderAZ} onChange={ handleAlphabeticalOrder } className="select-sort" >
                     <option value="A-Z">A-Z</option>
                     <option value="Z-A">Z-A</option>
                 </select>
-                <select value={orderID} onChange={handleIdOrder}>
+                <select value={orderID} onChange={handleIdOrder} className="select-sort">
                     <option value="ASC">Less Attack</option>
                     <option value="DESC">More Attack</option>
                 </select>
